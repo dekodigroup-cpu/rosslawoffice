@@ -1,0 +1,26 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/blog/:slug*",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/our-team/:slug*",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/services/:slug*",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/(blog|contact|frequently-asked-questions|privacy-policy|our-team|services)",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/(estate-planning-myths-setting-the-record-straight|from-west-point-to-your-familys-future-my-mission-to-make-estate-planning-accessible|myth-1-i-dont-have-very-many-assets-so-i-dont-have-an-estate|myth-2-im-too-young-to-need-estate-planning|myth-3-a-simple-will-is-enough|myth-4-estate-planning-is-just-about-death)",
+      "destination": "/index.html"
+    }
+  ]
+}
